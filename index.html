@@ -1,1 +1,171 @@
-hello
+<html>
+<head>
+<title>Ryuji Dohaku</title>
+<style>
+body{
+	background: #fffaf;
+	font-family: arial;
+}
+
+h1{
+    position: relative;
+    padding: 0.25em 1em;
+    border-top: solid 2px black;
+	border-bottom: solid 2px black;
+}
+h1:before, h1:after{
+	content: '';
+	position: absolute;
+	top: -7px;
+	width: 2px;
+	  height: -webkit-calc(100% + 14px);
+	height: calc(100% + 14px);
+	background-color: black;
+}
+h1:before {left: 7px;}
+h1:after {right: 7px;}
+
+ul, ol {
+  background: #f5fffa;
+  border-radius :8px;/*�p�̊ۂ�*/
+  box-shadow :0px 0px 5px silver;/*5px=�e�̍L����*/
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+ul{
+  list-style-type: none!important
+}
+
+ul li, ol li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
+
+div.koushin{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  font-size: 10pt;
+}
+
+
+#blue{
+	position: absolute;
+	left: 150px;
+	top: 80px;
+	height: 60px;
+	width: 60px;
+	border-radius: 8px;
+	background-color: darkblue;
+}
+#red{
+	position: absolute;
+	left: 165px;
+	top: 95px;
+	height: 30px;
+	width: 30px;
+	border-radius: 8px;
+	background-color: red;
+}
+
+</style>
+<script type="text/javascript" src="mouse.js"></script>
+<script src="anime-master/anime.min.js"></script>
+</head>
+
+<body>
+<!--������������T�C�g�̕\����������-->
+
+<h1>Ryuji Dohaku</h1>
+
+<div class="koushin">
+<script type="text/javascript"><!--
+document.write( "last updated: " + document.lastModified );
+// --></script>
+</div>
+
+<div id="cursor" style="position:absolute"><Img src="http://bbc.agr.nagoya-u.ac.jp/~junkei/d/fig/fish.png" width="60" height="30"></div>
+<script type="text/javascript"><!--
+myGetEvent();
+// --></script>
+
+<!-- animation -->
+<div id="blue"></div>
+<script type = "text/javascript">
+var test = anime({
+	targets: '#blue',
+		translateX: {
+			value: 500,
+			duration: 5000,
+		},
+		rotate: 100,
+		direction: 'alternate',
+		loop: true
+});
+</script>
+
+<div id="red"></div>
+<script type = "text/javascript">
+var test = anime({
+	targets: '#red',
+		translateX: {
+			value: 500,
+			duration: 5000,
+		},
+		rotate: -200,
+		direction: 'alternate',
+		loop: true
+});
+</script>
+
+<br><br>
+<h2>Education</h2>
+<ul>
+<li>Tsurugakehi high school, 2013</li>
+<li>Nagoya University, 2017</li>
+</ul>
+
+
+
+<h2>Japanese Meeting</h2>
+<h4>2018</h4>
+<ol>
+<li value="3"> <u>Ryuji Dohaku</u>, Miki Takeuchi, Takashi Shimizu, Masahiko Hibi.<br>
+     Fat2 controls formation of cerebellar neural circuits in zebrafish.<br>
+     Joint Annual Meeting of JSDB 51st and JSCB 70th. 2018, 6, 6. (poster presentation) </li>
+
+</ol>
+
+<h4>2017</h4>
+<ol>
+<li value="2"> <u>Ryuji Dohaku</u>, Fumitaka Osakada, Masahiko Hibi.<br>
+     Tracing of zebrafish cerebellar neural circuits with a rabies virus system.<br>
+     The 23th Japanese Medaka and Zebrafish Meeting. 2017, 8, 31. (<a href="https://www.med.yamanashi.ac.jp/medicine/devbio/23rdJMZM/en/program.html">oral presentation</a>) </li>
+<br>
+<li value="1"> <u>Ryuji Dohaku</u>, Fumitaka Osakada, Masahiko Hibi.<br>
+     Tracing of zebrafish cerebellar neural circuits with a pseudotyped recombinant rabies virus system.<br>
+     The 40th Japan Neuroscience Society. 2017, 7, 20. (<a href="http://www.jnss.org/abstract/neuro2017/meeting_planner/sessiondetail.php?st_id=201710822&u=1511522928&yz=0">poster presentation</a>) </li>
+</ol>
+
+
+
+<h2>Award</h2>
+<h4>2017</h4>
+<ol>
+<li value="1"> Best Oral Presentation Award at 23th JMZM</li>
+</ol>
+
+<br clear="all">
+
+mail: douhaku.ryuuji [at] h.mbox.nagoya-u.ac.jp<br><br>
+
+
+
+<a href="https://github.com/ryupy">github</a> <br>
+<br>
+<a href="http://bbc.agr.nagoya-u.ac.jp/~junkei/member">Back</a> <br>
+
+
+</body>
+
+</html>
+        
