@@ -3,6 +3,10 @@ body{
 	font-family: arial;
 }
 
+#tab_control a{
+    
+}
+
 h1{
     position: relative;
     padding: 0.25em 1em;
