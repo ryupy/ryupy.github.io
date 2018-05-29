@@ -47,6 +47,17 @@ div.koushin{
   font-size: 10pt;
 }
 
+.tab_wrap{width:500px; margin:80px auto;}
+.tab_area{font-size:0; margin:0 10px;}
+.tab_area label{width:150px; margin:0 5px; display:inline-block; padding:12px 0; color:#999; background:#ddd; text-align:center; font-size:13px; cursor:pointer; transition:ease 0.2s opacity;}
+.tab_area label:hover{opacity:0.5;}
+.panel_area{background:#fff;}
+.tab_panel{width:100%; padding:80px 0; display:none;}
+.tab_panel p{font-size:14px; letter-spacing:1px; text-align:center;}
+ 
+.tab_area label.active{background:#fff; color:#000;}
+.tab_panel.active{display:block;}
+
 #blue{
 	position: absolute;
 	left: 150px;
@@ -67,6 +78,7 @@ div.koushin{
 }
 
 </style>
+<script src="tab.js"></script>
 <script type="text/javascript" src="mouse.js"></script>
 <script src="anime-master/anime.min.js"></script>
 </head>
