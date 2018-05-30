@@ -1,2 +1,2 @@
 # ryupy.github.io
-test用
+html5, css, jsでホームページ作製
