@@ -47,7 +47,7 @@ div#tab_body div {
 }
 
 ol {
-	font-weight: bold;	
+	font-weight: bold;
 	background: #f5fffa;
 	border-radius :8px;
 	box-shadow :0px 0px 5px silver;
@@ -63,9 +63,18 @@ ol li {
   padding: 0.5em 0;
 }
 
+div#mail{
+	position:absolute;
+	top: 40px;
+	right: 30px;
+	font-size: 15px;
+	font-family: 'Cabin Sketch', cursive;
+}
+
 div.koushin{
   position: absolute;
-  top: 25px;
+  top: 15px;
   right: 30px;
   font-size: 10pt;
+	font-family: 'Cabin Sketch', cursive;
 }
