@@ -55,7 +55,7 @@ ol {
 ol li {
   line-height: 1.5;
   padding: 0.5em 0;
-  list-style-type: none!important;
+  display: none!important;
 }
 
 div.koushin{
