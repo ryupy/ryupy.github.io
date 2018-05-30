@@ -1,9 +1,14 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
+</style>
+
 body{
 	background: #fffaf;
 	font-family: arial;
 }
 
 h1{
+	font-family: 'Covered By Your Grace', cursive;
     position: relative;
     padding: 0.25em 1em;
     border-top: solid 2px black;
