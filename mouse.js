@@ -1,7 +1,7 @@
-window.document.onmousemove = myGetEvent; // マウスを動かした。
-function myGetEvent( evt ){ 
-  myEvent = ( evt ) ? evt : window.event; // FireFox 対策 
-  myObj=document.getElementById("cursor").style;
-  myObj.left = document.body.scrollLeft + myEvent.clientX + 15; // X表示位置 
-  myObj.top = document.body.scrollTop + myEvent.clientY + 15; // Y表示位置 
-} 
+function mouseEvent(){
+  myObject = document.getElementById("cursor").style;
+  myObject.left = document.body.scrollLeft + event.clientX + 15;
+  myObject.top = document.body.scrollTop + event.clientY + 15;
+}
+
+window.document.onmousemove = mouseEvent();
