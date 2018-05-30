@@ -71,7 +71,10 @@ div.koushin{
 }
 
 div#cursor {
+	position: absolute;
 	z-index: 11;
+	width: 60px;
+	height: 30px;
 }
 
 
