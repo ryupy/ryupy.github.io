@@ -65,7 +65,7 @@ ol li {
 
 div#mail{
 	position:absolute;
-	top: 40px;
+	top: 60px;
 	right: 30px;
 	font-size: 15px;
 	font-family: 'Cabin Sketch', cursive;
@@ -73,7 +73,7 @@ div#mail{
 
 div.koushin{
   position: absolute;
-  top: 15px;
+  top: 25px;
   right: 30px;
   font-size: 10pt;
 	font-family: 'Cabin Sketch', cursive;
