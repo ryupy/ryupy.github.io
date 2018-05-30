@@ -15,7 +15,16 @@
 		// --></script>
 	</div>
 
-	<div id="cursor"><Img src="fig/fish.png" width="60" height="30"></div>
+	<div id="cursor"><Img src="fig/fish.png"></div>
+	<script type="text/javascript">
+		window.document.onmousemove = myGetEvent; // マウスを動かした。
+		function myGetEvent( evt ){ 
+			myEvent = ( evt ) ? evt : window.event; // FireFox 対策 
+			myObj=document.getElementById("cursor").style;
+			myObj.left = document.body.scrollLeft + myEvent.clientX + 15; // X表示位置 
+			myObj.top = document.body.scrollTop + myEvent.clientY + 15; // Y表示位置 
+			} 
+	</script>
 
 	<!-- animation --><!--
 	<div id="blue"></div>
@@ -96,7 +105,7 @@
 	</div>
 
 	<!--スクリプト読み込み-->
-	<script type="text/javascript" src="mouse.js"></script>
+	<!--<script type="text/javascript" src="mouse.js"></script>-->
 	<script type="text/javascript" src="tab.js"></script>
 	<script type="text/javascript" src="anime-master/anime.min.js"></script>
 
