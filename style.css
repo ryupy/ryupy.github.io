@@ -65,7 +65,7 @@ div.koushin{
   font-size: 10pt;
 }
 
-div.cursor {
+div#cursor {
 	z-index: 5;
 }
 
