@@ -21,11 +21,14 @@ h1:before, h1:after{
 h1:before {left: 7px;}
 h1:after {right: 7px;}
 
-ul li {
-    display: inline-block;
-	background-color: #FFFFFF;
-	width: 25%;
-	font-size: 12px;
+ul.tab_control li a {
+	display: inline-block;
+	text-decoration: none; /*リンクの下線を消す*/
+	border-width: 1px 1px 0px 1px;
+	border-style: solid;
+	border-color: #000000;
+	font-weight: bold;
+	position: relative;
 }
 
 ol {
@@ -33,7 +36,7 @@ ol {
   border-radius :8px;
   box-shadow :0px 0px 5px silver;
   padding: 0.5em 0.5em 0.5em 2em;
-  list-style-type: none!important
+  list-style-type: none;
 }
 
 ol li {
