@@ -2,13 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700');
 </style>
 
-<style>
-@import url('https://fonts.googleapis.com/css?family=Pridi:300,600,700');
-</style>
-
 body{
 	background: #fffaf;
-	font-family: 'Pridi', serif;;
+	font-family: "arial";
 }
 
 h1{
