@@ -70,7 +70,7 @@ div.koushin{
   font-size: 10pt;
 }
 
-div#cursor {
+#cursor {
 	position: absolute;
 	z-index: 11;
 	width: 60px;
