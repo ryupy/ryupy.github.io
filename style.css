@@ -27,9 +27,6 @@ ul#tab_control li {
 
 ul#tab_control li a {
 	text-decoration: none; /*リンクの下線を消す*/
-	/*border-width: 2px 2px 0px 2px;
-	border-style: solid;
-	border-color: #000000;*/
 	padding: 0.75em 1em;
 	font-weight: bold;
 	font-size: 25px;
@@ -41,9 +38,6 @@ ul#tab_control li a:hover {
 }
 
 div#tab_body div {
-	/*border-width: 2px 2px 2px 2px;
-	border-style: solid;
-	border-color: #000000;*/
 	margin-top: -2px;
 	padding: 1em;
 	background-color: #ffffff;
