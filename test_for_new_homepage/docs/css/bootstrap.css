@@ -5579,14 +5579,14 @@ tbody.collapse.in {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 .nav-tabs > li {
   float: left;
-  margin-bottom: -1px;
+  margin-right: -1px;
 }
 .nav-tabs > li > a {
-  margin-right: 2px;
+  /* margin-right: 2px; */
   line-height: 1.5;
   border: 1px solid transparent;
   border-radius: 2px 2px 0 0;
@@ -5599,7 +5599,7 @@ tbody.collapse.in {
   cursor: default;
   background-color: #fff;
   border: 1px solid #ddd;
-  border-bottom-color: transparent;
+  border-right-color: transparent;
 }
 
 .nav-pills > li {
