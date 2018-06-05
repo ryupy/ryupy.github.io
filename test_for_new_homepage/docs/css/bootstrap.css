@@ -5602,6 +5602,7 @@ tbody.collapse.in {
   background-color: #fff;
   border: 1px solid #ddd;
   border-right-color: transparent;
+  border-left-color: transparent;
 }
 
 .nav-pills > li {
