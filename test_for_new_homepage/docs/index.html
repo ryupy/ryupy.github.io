@@ -32,6 +32,9 @@
 				visibility: hidden;
 			}
 		}
+		.carousel-fade .carousel-inner .item {
+			transition-property: opacity; 			
+		}
 	</style>
 	<!--[if lt IE 9]>
 		<script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -71,7 +74,7 @@
 </header>
 
 <div class="container">
-	<div id="c1" class="carousel" data-ride="carousel" data-interval="3000">
+	<div id="c1" class="carousel carousel-fade" data-ride="carousel" data-interval="3000">
 		<ol class="carousel-indicators">
 			<li data-target="#c1" data-slide-to="0" class="active"></li>
 			<li data-target="#c1" data-slide-to="1" class></li>
