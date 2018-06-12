@@ -8732,6 +8732,3 @@ h2.section_top{
   border-bottom: 1px solid #000;
   padding-bottom: 6px;
 }
-.dropdown:hover > .dropdown-menu{
-  display: block;
-}
