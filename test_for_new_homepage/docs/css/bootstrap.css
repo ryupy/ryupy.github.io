@@ -6535,7 +6535,7 @@ a.badge:hover, a.badge:focus {
   }
   .jumbotron h2,
   .jumbotron .h2 {
-    font-size: 48px;
+    font-size: 36px;
   }
 }
 
@@ -7878,9 +7878,9 @@ button.close {
   position: relative;
   display: none;
   -webkit-transition: 2s ease-in-out left;
-     -mos-transition: 2s ease-in-out left;
-       -o-transition: 2s ease-in-out left;
-          transition: 2s ease-in-out left;
+  -mos-transition: 2s ease-in-out left;
+  -o-transition: 2s ease-in-out left;
+  transition: 2s ease-in-out left;
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
