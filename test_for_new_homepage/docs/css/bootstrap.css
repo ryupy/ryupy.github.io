@@ -3834,7 +3834,7 @@ th {
   padding: 8px;
   line-height: 1.5;
   vertical-align: top;
-  border-top: 1px solid #ddd;
+  /* border-top: 1px solid #ddd; */
 }
 .table > thead > tr > th {
   vertical-align: bottom;
@@ -8727,4 +8727,8 @@ a {
 .tooltip,
 .popover {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+h2.section_top{
+  border-bottom: 1px solid #000;
+  padding-bottom: 6px;
 }
