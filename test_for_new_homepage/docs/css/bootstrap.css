@@ -6514,7 +6514,7 @@ a.badge:hover, a.badge:focus {
 }
 .container .jumbotron, .container-fluid .jumbotron {
   padding-right: 15px;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   border-radius: 4px;
 }
 .jumbotron .container {
@@ -6527,7 +6527,7 @@ a.badge:hover, a.badge:focus {
   }
   .container .jumbotron, .container-fluid .jumbotron {
     padding-right: 60px;
-    padding-left: 60px;
+    /* padding-left: 60px; */
   }
   .jumbotron h1,
   .jumbotron .h1 {
