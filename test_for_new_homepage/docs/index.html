@@ -17,21 +17,6 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/example.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-	<!-- <script type="text/javascript">
-		$(function(){
-		    $(window).scroll(function (){
-		        $('.section').each(function(){
-		            var elemPos = $(this).offset().top;
-		            var scroll = $(window).scrollTop();
-		            var windowHeight = $(window).height();
-		            if (scroll > elemPos - windowHeight + 200){
-		                $(this).addClass('scrollin');
-		            }
-		        });
-		    });
-		});
-	</script> -->
-
 	<style type="text/css">
 		.carousel-caption{
 			text-align: left;
@@ -271,7 +256,23 @@
 	</div>
 </footer>
 <script src="//cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.5/clipboard.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$(function(){
+		    $(window).scroll(function (){
+		        $('.section').each(function(){
+		            var elemPos = $(this).offset().top;
+		            var scroll = $(window).scrollTop();
+		            var windowHeight = $(window).height();
+		            if (scroll > elemPos - windowHeight + 200){
+		                $(this).addClass('scrollin');
+		            }
+		        });
+		    });
+		});
+	</script>
+
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <div id="fb-root"></div>
