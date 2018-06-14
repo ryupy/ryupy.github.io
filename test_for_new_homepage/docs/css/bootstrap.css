@@ -3831,7 +3831,7 @@ th {
 .table > tbody > tr > td,
 .table > tfoot > tr > th,
 .table > tfoot > tr > td {
-  padding: 8px;
+  padding: 4px;
   line-height: 1.5;
   vertical-align: top;
   border-bottom: 1px solid #ddd;
@@ -8753,7 +8753,7 @@ h2.section_top{
   padding-bottom: 5%;
 }
 td.info{
-  width: 7em;
+  width: 7.5em;
 }
 .ggmap{
   position: relative;
@@ -8770,4 +8770,12 @@ td.info{
   left: 0;
   width: 100%;
   height: 100%;
+}
+tbody > tr > td{
+  font-size: 14px;
+}
+.photo{
+  margin-right: 20%;
+  margin-bottom: 5%;
+  width: 120;
 }
