@@ -8733,18 +8733,17 @@ h2.section_top{
   padding-bottom: 6px;
 }
 .section h3.section-text{
-  /* width: 150%; */
-  /* background-color: rgba(0, 0, 0, 0.55); */
-  /* color: #fff; */
-  /* margin-left: -20%;
-  padding-left: 20%; */
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
-  padding-left: 10px;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #5d627b;
+  background: white;
+  border-left: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+
 }
 .section h4{
-  border-bottom:2px solid #FF8A00;
-  border-left: 5px solid #FF8A00;
+  border-bottom:2px solid #35ea8b;
+  border-left: 5px solid #35ea8b;
   padding-left: 15px;
 }
 .article{
