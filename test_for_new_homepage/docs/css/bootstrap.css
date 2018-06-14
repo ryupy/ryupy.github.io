@@ -3834,7 +3834,7 @@ th {
   padding: 8px;
   line-height: 1.5;
   vertical-align: top;
-  /* border-top: 1px solid #ddd; */
+  border-bottom: 1px solid #ddd;
 }
 .table > thead > tr > th {
   vertical-align: bottom;
@@ -8751,4 +8751,7 @@ h2.section_top{
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
+}
+td.info{
+  width: 7em;
 }
