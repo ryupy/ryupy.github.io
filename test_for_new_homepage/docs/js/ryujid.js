@@ -1,3 +1,16 @@
+$(function(){
+  $(window).scroll(function (){
+    $('.section').each(function(){
+      var elemPos = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > elemPos - windowHeight + 100){
+        $(this).addClass('scrollin');
+      }
+    });
+  });
+});
+
 $(function() {
     var showFlag = false;
   var topBtn = $('.page_top');
