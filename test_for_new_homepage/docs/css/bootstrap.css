@@ -2390,7 +2390,7 @@ a {
   color: #68AE32;
   text-decoration: none;
 }
-a:hover, a:focus {
+a:hover {
   /* color: #1c73b2; */
   text-decoration: underline;
 }
