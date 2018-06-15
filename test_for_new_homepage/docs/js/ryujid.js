@@ -13,7 +13,7 @@ $(function(){
 
 $(function() {
     var showFlag = false;
-  var topBtn = $('.page_top');
+  var topBtn = $('#page_top');
   topBtn.css('bottom', '-100px');
   var showFlag = false;
   //スクロールが100に達したらボタン表示
