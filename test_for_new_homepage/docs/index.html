@@ -16,10 +16,31 @@
 		.jumbotron{
 			background: url(assets/img/img2.jpg) center no-repeat;
 			background-size: cover;
-			color: #ffffff;
 			padding-top: 20px;
 			padding-bottom: 250px;
 			margin-top: auto;
+		}
+		.jumbotron h2{
+			background-color: rgba(0,0,0,0.55);
+			color: #fff;
+			padding-left: 5%;
+			padding-bottom: 0.5%;
+			padding-top: 1%;
+		}
+		.jumbotron > h2 > .h5{
+			padding-top: 20px;
+			animation: FadeIn 2s ease 0s 1 normal;
+			-webkit-animation: FadeIn 2s ease 0s 1 normal;
+		}
+		@keyframes FadeIn {
+		  0% {opacity: 0}
+		  50% {opacity: 0.5}
+		  100% {opacity: 1}
+		}
+		@-webkit-keyframes FadeIn {
+		  0% {opacity: 0}
+		  50% {opacity: 0.5}
+		  100% {opacity: 1}
 		}
 	</style>
 	<!--[if lt IE 9]>
@@ -55,7 +76,7 @@
 <div class="container">
 	<div class="article">
 		<div class="jumbotron">
-			<h2 class="page_top_text">名古屋大学<br>
+			<h2>名古屋大学<br>
 				生物機能開発利用研究センター<br>
 				動物器官機能研究分野<br>
 				<div class="h5">私たちは器官の発生と機能発現の分子メカニズムを研究しています
