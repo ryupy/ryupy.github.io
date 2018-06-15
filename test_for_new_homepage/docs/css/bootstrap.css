@@ -8728,6 +8728,65 @@ a {
 .popover {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 }
+/* ここから追記 */
+.jumbotron h2{
+  background-color: rgba(0, 0, 0, 0.55);
+  padding-left: 5%;
+  padding-bottom: 0.5%;
+  padding-top: 1%;
+}
+h2 > .h5{
+  padding-top: 20px;
+}
+.h5{
+  animation: FadeIn 2s ease 0s 1 normal;
+  -webkit-animation: FadeIn 2s ease 0s 1 normal;
+}
+@keyframes FadeIn {
+  0% {opacity: 0}
+  50% {opacity: 0.5}
+  100% {opacity: 1}
+}
+@-webkit-keyframes FadeIn {
+  0% {opacity: 0}
+  50% {opacity: 0.5}
+  100% {opacity: 1}
+}
+/* 画面外にいる時 */
+.section{
+  opacity: 0.1;
+  transform: translate(0, 50px);
+  transition: all 600ms;
+}
+/* 画面をスクロールした時 */
+.section.scrollin{
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.row .section:nth-of-type(2) {
+  -moz-transition-delay:200ms;
+  -webkit-transition-delay:200ms;
+  -o-transition-delay:200ms;
+  -ms-transition-delay:200ms;
+}
+.row .section:nth-of-type(3) {
+  -moz-transition-delay:400ms;
+  -webkit-transition-delay:400ms;
+  -o-transition-delay:400ms;
+  -ms-transition-delay:400ms;
+}
+.row .section:nth-of-type(4) {
+  -moz-transition-delay:600ms;
+  -webkit-transition-delay:600ms;
+  -o-transition-delay:600ms;
+  -ms-transition-delay:600ms;
+}
+.row .section:nth-of-type(5) {
+  -moz-transition-delay:800ms;
+  -webkit-transition-delay:800ms;
+  -o-transition-delay:800ms;
+  -ms-transition-delay:800ms
+}
 h2.section_top{
   border-bottom: 1px solid #000;
   padding-bottom: 6px;
