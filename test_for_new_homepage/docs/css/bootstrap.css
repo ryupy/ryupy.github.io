@@ -6216,7 +6216,6 @@ tbody.collapse.in {
 .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
-
 .breadcrumb {
   list-style: none;
   background-color: inherit;
@@ -6225,14 +6224,13 @@ tbody.collapse.in {
 .breadcrumb > li {
   display: inline-block;
 }
+.breadcrumb > li > a{
+  color: #eee;
+}
 .breadcrumb > li + li:before {
   color: #ccc;
   content: "/ ";
 }
-.breadcrumb > .active {
-  color: #fff;
-}
-
 .pagination {
   display: inline-block;
   padding-left: 0;
