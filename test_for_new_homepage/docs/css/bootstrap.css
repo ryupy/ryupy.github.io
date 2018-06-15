@@ -8819,6 +8819,7 @@ tbody > tr > td{
   border-radius: 50%;
   background-color: #68AE32;
   color: #fff;
+  z-index: 1;
 }
 ul.list > li{
   padding-bottom: 20px;
