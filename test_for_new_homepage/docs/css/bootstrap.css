@@ -8775,7 +8775,7 @@ h2 > .h5{
   -o-transition-delay:400ms;
   -ms-transition-delay:400ms;
 }
-.row .section:nth-of-type(4) {
+/* .row .section:nth-of-type(4) {
   -moz-transition-delay:600ms;
   -webkit-transition-delay:600ms;
   -o-transition-delay:600ms;
@@ -8786,7 +8786,7 @@ h2 > .h5{
   -webkit-transition-delay:800ms;
   -o-transition-delay:800ms;
   -ms-transition-delay:800ms
-}
+} */
 h2.section_top{
   border-bottom: 1px solid #000;
   padding-bottom: 6px;
