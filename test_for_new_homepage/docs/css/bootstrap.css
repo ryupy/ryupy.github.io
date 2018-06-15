@@ -8810,12 +8810,12 @@ tbody > tr > td{
   margin-bottom: 24px;
   width: 120px;
 }
-#page_top {
+.page_top {
   position: fixed;
   bottom: 3%;
   right: 5%;
 }
-#page_top a {
+.page_top a {
   color: #fff;
   background-color: #68AE32;
   padding: 7px;
