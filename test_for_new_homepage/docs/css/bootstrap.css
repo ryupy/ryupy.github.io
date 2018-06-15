@@ -4965,7 +4965,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-color: transparent;
 }
 .btn-link:hover, .btn-link:focus {
-  color: #1c73b2;
+  /* color: #1c73b2; */
   text-decoration: underline;
   background-color: transparent;
 }
