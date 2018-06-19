@@ -8764,7 +8764,7 @@ h2.section_top{
   border-bottom: 1px solid #000;
   padding-bottom: 6px;
 }
-.member_section h3.section-text{
+.mysection h3.section_text{
   padding: 0.5em 1em;
   margin: 2em 0;
   color: #68AE32;
@@ -8772,7 +8772,7 @@ h2.section_top{
   border-left: solid 5px #68AE32;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
-.member_section h4{
+.mysection h4{
   border-bottom:2px solid #68AE32;
   border-left: 5px solid #68AE32;
   padding-left: 15px;
