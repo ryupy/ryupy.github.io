@@ -8823,7 +8823,7 @@ tbody > tr > td{
   text-align: center;
 }
 p.mybtn {
-  margin: 20px 0px 30px 20px;
+  /* margin: 20px 0px 30px 20px; */
 }
 p.mybtn a {
   color: #fff;
