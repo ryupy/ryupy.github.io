@@ -8568,3 +8568,9 @@ footer .copyright {
 a.btn-primary:hover {
   direction: underline;
 }
+.mypublications{
+  margin-top: 2.5em;
+}
+.mypublications > a.mypublicationsbutton{
+  margin-top: 1em;
+}
